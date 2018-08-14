@@ -6,7 +6,17 @@ namespace CG_6_2_upper_case_sentence
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //ask user to type sentence
+            Console.Write("Please type a sentence: ");
+
+            //declare variable as string, input user sentence and convert to uppercase
+            string userSentence = Console.ReadLine().ToUpper();
+            
+            //print it to console
+            Console.WriteLine(userSentence);
+
+            Console.ReadLine();
+
         }
     }
 }
